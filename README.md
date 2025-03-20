@@ -1,7 +1,5 @@
 # ℹ CARE: Context-Augmented Relation Generation for Few-Shot Knowledge Graph Completion
 
-> 📅 **Our code is coming soon!**
-
 🛠 In this paper, we summarize three main challenges in the Few-shot Knowledge Graph Completion (FKGC) task: *(1) Dependency on Background KGs. (2) Key Context Identification. (3) Shallow Context Aggregation.*
 
 🔬 To address these challenges, we employ **Parameter-free Degree-based Aggregation (PDA)** to aggregate multi-hop neighbors information to extract abundant structural knowledge for relation generation. Besides, we implement **Context Augmentation (CA)** to refine the few-shot relation representations by emphasizing critical context-level information.
@@ -96,3 +94,4 @@ python main.py --dataset Fb15k-237 --data_path ./Fb15k-237 \
 --few 5 --prefix fb5 --learning_rate 0.001 \
 --checkpoint_epoch 1000 --eval_epoch 1000 --batch_size 1024 --device 0 --step test
 ```
+
